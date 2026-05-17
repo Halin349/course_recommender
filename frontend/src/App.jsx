@@ -64,7 +64,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "https://course-recommender-56co.onrender.com",
+        "https://course-recommender-56co.onrender.com/recommend",
         {
           courses,
           max_credits: Number(credits),
